@@ -1,6 +1,14 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello, Mac C++ World!" << std::endl;
+    
+    int n,k;
+
+    cin >> n >> k ;
+    
+    cout << n+k<<endl;
+    
     return 0;
 }
